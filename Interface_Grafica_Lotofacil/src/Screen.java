@@ -55,6 +55,11 @@ public class Screen extends JFrame {
         sair.setBackground(new Color(250, 250, 150));
         add(sair);
 
+        JLabel nome = new JLabel("by misael alexandrino");
+        nome.setBounds(460, 400, 400, 30);
+        nome.setFont(new Font("Arial", Font.ITALIC, 25));
+        add(nome);
+
         botaoaposta1.addActionListener(this::aposta1);
         botaoaposta2.addActionListener(this::aposta2);
         botaoaposta3.addActionListener(this::aposta3);
