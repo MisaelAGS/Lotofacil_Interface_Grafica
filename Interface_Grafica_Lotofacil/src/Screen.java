@@ -6,12 +6,12 @@ public class Screen extends JFrame {
     public Screen() {
 
         setTitle("Lotofacil");
-        setVisible(true);
         setSize(800, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);
         setLayout(null);
+        setVisible(true);
 
         JLabel titulo = new JLabel("Lotofácil");
         titulo.setBounds(300, 15, 250, 50);
